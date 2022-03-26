@@ -61,6 +61,9 @@ To perform a cache-dump, the user should enter the command "cache-dump" with no 
 ![](https://i.imgur.com/T83obw3.png)
 
 ### memory-dump
-To dump the memory to a file, the user should enter the command "memory-dump" with no additional parameters. This will output the current state of the memory to a file named ram.txt. It will also output the contents of ram.txt to the console, like so (truncated as output is very long):
+To dump the memory to a file, the user should enter the command "memory-dump" with no additional parameters. This will output the current state of the memory to a file named ram.txt in the working directory. It will also output the contents of ram.txt to the console, like so (truncated as output is very long):
 
 ![](https://i.imgur.com/keS1xMx.png)
+
+### quit
+Finally, should the user wish to exit the Cache Simulator, they need only enter the command "quit". This will immediately fully exit the program.
